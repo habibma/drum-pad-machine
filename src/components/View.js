@@ -4,7 +4,7 @@ import icon from '../images/free-code-camp.svg'
 
 const Pad = (props) => {
 
-    const [state, setState] = useState("")
+    const [state] = useState("")
 
 
     const keyDownHandler = (e) => {
